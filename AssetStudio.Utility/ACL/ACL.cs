@@ -94,7 +94,7 @@ namespace ACLLibs
             var dbAligned = new IntPtr(16 * (((long)dbPtr + 15) / 16));
             Marshal.Copy(db, 0, dbAligned, db.Length);
 
-            DecompressTracks(dataAligned, dbAligned, ref decompressedClip);
+            DecompressTracks(dataAligned, dbAligned, IntPtr.Zero, ref decompressedClip);
 
             Marshal.FreeHGlobal(dataPtr);
             Marshal.FreeHGlobal(dbPtr);
@@ -111,7 +111,7 @@ namespace ACLLibs
         #region importfunctions
 
         [DllImport(DLL_NAME, CallingConvention = CallingConvention.Cdecl)]
-        private static extern void DecompressTracks(nint data, nint db, ref DecompressedClip decompressedClip);
+        private static extern void DecompressTracks(nint data, nint db, nint streamer, ref DecompressedClip decompressedClip);
 
         [DllImport(DLL_NAME, CallingConvention = CallingConvention.Cdecl)]
         private static extern void Dispose(ref DecompressedClip decompressedClip);

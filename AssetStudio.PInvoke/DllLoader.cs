@@ -8,7 +8,6 @@ namespace AssetStudio.PInvoke
 {
     public static class DllLoader
     {
-
         public static void PreloadDll(string dllName)
         {
             var dllDir = GetDirectedDllDirectory();
