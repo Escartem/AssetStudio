@@ -1,4 +1,9 @@
-## This fork is just a merge of yarik's and hashblen's work for gi 4.6+ and zzz support (only textures for now) respectively, the point of this is just to have both in one single asset studio. if fixes are made here, they'll probably be pushed to their respective fork at some point
+# Asset Studio
+## Asset exploration tool for hoyo games and more
+
+### ℹ️ As the [official Asset Studio by Razmoth](https://github.com/RazTools/Studio) is no longer maintained, and bugs continue to arise, many forks appeared fixing each bug individually, the goal of this repo is to merge all the work in one place to have a new unified working Asset Studio. This fork includes mainly [Hashblen's](https://github.com/hashblen/ZZZ_Studio) and [Yarik's](https://github.com/yarik0chka/YarikStudio) work along with others.
+
+### 💻 You can download the latest [build here](https://nightly.link/Escartem/AssetStudio/workflows/build/main?preview)
 
 ---
 
