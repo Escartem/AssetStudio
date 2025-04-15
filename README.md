@@ -1,6 +1,8 @@
 # Asset Studio
 ## Asset exploration tool for hoyo games and more
 
+# ⚠️ This tool was replaced by [AnimeStudio](https://github.com/Escartem/AnimeStudio), please refer to it instead !
+
 ### ℹ️ As the [official Asset Studio by Razmoth](https://github.com/RazTools/Studio) is no longer maintained, and bugs continue to arise, many forks appeared fixing each bug individually, the goal of this repo is to merge all the work in one place to have a new unified working Asset Studio. This fork includes mainly [Hashblen's](https://github.com/hashblen/ZZZ_Studio) and [Yarik's](https://github.com/yarik0chka/YarikStudio) work along with others.
 
 ### 💻 You can download the latest [build here](https://nightly.link/Escartem/AssetStudio/workflows/build/main?preview)
